@@ -1,7 +1,7 @@
 import threading
 from socket import *
 from threading import *
-from uu import encode  # Note: 'uu.encode' is imported but not used in the code.
+from uu import encode 
 
 import select  # Imported for handling multiple socket connections in UDP Server.
 
